@@ -1,8 +1,63 @@
-body {
-  background-color: lightblue;
+table{
+    width: 400px;
 }
 
-h1 {
-  color: navy;
-  margin-top: 50px;
+th{
+    text-align: left;
+    color: blue;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+#MainTitle{
+    background-color: aqua;
+    text-align: center;
+    margin: auto;
+    
+    font-style: normal;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+p.primary{
+    border-style: outset;
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+body{
+    background: aquamarine;
+  }
+
+.subtitle{
+    border-style: solid;
+    text-decoration: wavy;
+    background-color: green;
+    color: white;
+    padding: 5px;
+
+}
+
+li.mag{
+    color: darkmagenta;
+}
+
+li.blueviolet{
+    color: blueviolet;
+}
+
+.listtitle{
+    font-style: oblique;
+    font-size: 20px;
+}
+
+.bands{
+  text-align: center;
+  color: darksalmon;
 }
